@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bruno Costa Barros - Advocacia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Advogado especializado em Contratual, Criminal, Empresarial, Imobiliário, Trabalhista e Cível.">
+  
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  />
+  <!-- Google Fonts (exemplo) -->
+  <link 
+    rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+  />
+  <style>
+    /* Definindo uma fonte mais elegante */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa; /* Azul muito claro */
+      color: #495057; /* Azul marinho para o texto */
+    }
+
+    /* Navegação */
+    .navbar-brand {
+      font-weight: 700; /* Roboto bold */
+      font-size: 1.4rem;
+    }
+    
+    /* Seção Hero */
+    .hero {
+      background: url('<img src="images/justica.jpg"') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    /* Sobre */
+    #sobre img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    /* Card de Serviços */
+    .card h5 {
+      font-weight: 600;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 1rem 0;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bruno Barros Advocacia</a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div 
+        class="collapse navbar-collapse" 
+        id="navbarNav"
+      >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero (cabeçalho de destaque) -->
+  <section class="hero">
+    <h1>Advocacia Especializada</h1>
+    <p>Contratual | Criminal | Empresarial | Imobiliário | Trabalhista | Cível</p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Imagem / Foto -->
+        <div class="col-md-4">
+          <!-- C:\Users\hi.user\Desktop\Particular Bruno\Logos Juris -->
+          <img 
+            src="<img src="images/novologo.jpg" 
+            alt="Foto de Bruno Barros"
+          >
+        </div>
+
+        <!-- Texto de apresentação -->
+        <div class="col-md-8">
+          <h2> </h2>
+          <p class="mt-3">
+            Advogado com ampla experiência em direito contratual, criminal, empresarial, imobiliário, trabalhista e societário.
+            Pós-Graduado em Direito Penal e Criminologia pela PUC-RS.
+          </p>
+          <p>
+            Atuo na elaboração, análise e revisão de contratos, além de prestar consultoria em reestruturações 
+            societárias, governança corporativa e soluções jurídicas inovadoras. Exerço funções no direito penal 
+            desde o  início da minha carreira, defendendo interesses em diferentes fases do processo e buscando soluções 
+            justas e eficazes. Busco sempre a excelência e a ética, a fim de garantir a proteção dos interesses dos meus clientes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Áreas de Atuação</h2>
+
+      <!-- Primeira linha de cards -->
+      <div class="row g-4">
+        <!-- Direito Contratual -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Contratual</h5>
+              <p class="card-text">
+                Elaboração, revisão e negociação de contratos, aditivos e notificações extrajudiciais.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Direito Imobiliário -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Imobiliário</h5>
+              <p class="card-text">
+                Assessoria em locações, compra e venda, permuta, due diligence imobiliária e resolução de conflitos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Direito Trabalhista -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Trabalhista</h5>
+              <p class="card-text">
+                Consultoria a empresas e empregados sobre direitos e obrigações. Atuação em reclamatórias e acordos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segunda linha de cards -->
+      <div class="row g-4 mt-2">
+        <!-- Direito Cível -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Cível</h5>
+              <p class="card-text">
+                Soluções em demandas judiciais e extrajudiciais em questões de natureza cível.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Direito Penal -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Penal</h5>
+              <p class="card-text">
+                Atuação em crimes contra a pessoa, patrimônio, colarinho branco e Tribunal do Júri, 
+                desde inquéritos até a execução penal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Direito Empresarial -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Direito Empresarial</h5>
+              <p class="card-text">
+                Foco em constituição de empresas, governança corporativa, fusões e aquisições, 
+                além de consultoria em operações comerciais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contato</h2>
+
+      <!-- Informações de contato -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-6 text-center">
+          <p class="mb-1"><strong>Endereço:</strong> Rua Gregório Allegri, 295</p>
+          <p class="mb-1"><strong>E-mail:</strong> <a href="mailto:brunocbarrosadv@gmail.com">brunocbarrosadv@gmail.com</a></p>
+          <p class="mb-1"><strong>Telefone (WhatsApp):</strong> <a href="https://wa.me/5511940813837" target="_blank">(11) 94081-3837</a></p>
+        </div>
+      </div>
+
+      <!-- Formulário -->
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-4">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 Bruno Costa Barros - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (para componentes como o menu mobile) -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
